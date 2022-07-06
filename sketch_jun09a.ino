@@ -27,13 +27,6 @@ void loop() {
     if(nhiet > 25 && nhiet <35 ){
      digitalWrite(led, HIGH);
      digitalWrite(relay, HIGH);
-     if(doam>70)
-     {
-      digitalWrite(led, LOW);
-      digitalWrite(relay, LOW);
-
-     }
-      
      }
     
     else{
